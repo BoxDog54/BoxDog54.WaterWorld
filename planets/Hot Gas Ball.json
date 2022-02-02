@@ -1,0 +1,42 @@
+{
+    "name" : "Hot Gas Ball",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "starSystem" : "BoxDog54.TestSystem",
+    "Base" :
+	{
+		"surfaceGravity" : 100,
+		"surfaceSize" : 1,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"centerOfSolarSystem" : true
+	},
+	"Orbit" :
+	{
+		"isStatic" : true
+	},
+	"Star" :
+	{
+		"size" : 1,
+		"tint" : 
+		{
+			"r" : 245,
+			"g" : 197,
+			"b" : 126,
+			"a" : 255
+		},
+		"solarFlareTint" : 
+		{
+			"r" : 26,
+			"g" : 102,
+			"b" : 255,
+			"a" : 255
+		},
+		"solarLuminosity" : 0.8,
+        "curve" : [{"time":0, "value":0}, {"time":22, "value":1}]
+    },
+    "Water"  :
+    {
+        "size": 2000,
+        "curve" : [{"time":0, "value":0}, {"time":22, "value":1}]
+    }
+}

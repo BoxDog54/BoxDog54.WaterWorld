@@ -1,0 +1,9 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "BoxDog54",
+  "name": "Water World",
+  "uniqueName": "BoxDog54.WaterWorld",
+  "version": "0.0.1",
+  "owmlVersion": "2.3.1",
+  "dependencies": [ "xen.NewHorizons" ]
+}

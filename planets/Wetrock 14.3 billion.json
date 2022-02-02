@@ -1,0 +1,48 @@
+{
+    "name" : "Wetrock",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"starSystem" : "BoxDog54.TestSystem",
+	"Spawn" : 
+	{
+		"playerSpawnPoint" :
+		{"x": -55.65454, "y": 227.4736, "z": 183.9742},
+		"shipSpawnPoint" :
+		{"x": -59.18244, "y": 215.5915, "z": 196.174},
+		"startwithSuit" : true
+	},
+    "Base" : 
+    {
+        "groundSize" : 100,
+        "waterSize" : 101,
+        "surfaceSize" : 101,
+        "surfaceGravity" : 12,
+        "hasMapMarker" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 2000,
+        "inclination" : 14.3,
+        "primaryBody" : "Hot Gas Ball",
+        "isMoon" : false,
+        "isTidallyLocked" : true,
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 0
+    },
+    "Atmosphere" : 
+    {
+        "size" : 150,
+        "fogTint" : 
+        {
+            "r" : 200,
+            "g" : 255,
+            "b" : 255,
+            "a" : 255
+        },
+        "fogSize": 150,
+        "fogDensity":0.2,
+        "hasRain" : false,
+        "hasSnow": true,
+        "hasOxygen": true
+   }
+}
